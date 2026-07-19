@@ -4,3 +4,8 @@ version: '${version}'
 main: cl.andreus.TpDeath
 api-version: '26.1.2'
 load: POSTWORLD
+
+permissions:
+  TpDeath.tpdeath:
+    description: Teletransporta al jugador a su última muerte
+    default: true

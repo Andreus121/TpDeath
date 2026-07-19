@@ -24,7 +24,7 @@ public class PlayerDeathListener implements Listener {
         //guardar el jugador que murió
         Player player = event.getPlayer();
         //guardar su ubicación de muerte con su UUID
-        this.deaths.put(player.getUniqueId(),player.getLastDeathLocation());
+        this.deaths.put(player.getUniqueId(),player.getLocation());
     }
 
     public Location getLocationDeath(Player player){
