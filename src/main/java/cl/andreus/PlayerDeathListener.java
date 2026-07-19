@@ -26,4 +26,8 @@ public class PlayerDeathListener implements Listener {
         //guardar su ubicación de muerte con su UUID
         this.deaths.put(player.getUniqueId(),player.getLastDeathLocation());
     }
+
+    public Location getLocationDeath(Player player){
+        return deaths.get(player.getUniqueId());
+    }
 }
