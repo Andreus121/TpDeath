@@ -1,0 +1,6 @@
+name: tpdeath
+version: '${version}'
+
+main: cl.andreus.TpDeath
+api-version: '26.1.2'
+load: POSTWORLD
