@@ -6,7 +6,10 @@ public final class TpDeath extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        //lógica cuando el plugin inicia
+
+        //registrar el listener
+        getServer().getPluginManager().registerEvents(new PlayerDeathListener(), this);
     }
 
     @Override

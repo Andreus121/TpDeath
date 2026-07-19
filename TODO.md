@@ -1,8 +1,11 @@
 # TODO - TpDeath Plugin
 
+## En Progreso
+- [x] Listener para `PlayerDeathListener` - guardar ubicación de muerte
+- [ ] Clase `TpDeathCommands`
+  - [ ] Comando `/tpdeath` - teletransporta al jugador a su última muerte
+
 ## Pendiente
-- [ ] Listener para `PlayerDeathListener` - guardar ubicación de muerte
-- [ ] Comando `/tpdeath` - teletransporta al jugador a su última muerte
 - [ ] Clase main `TpDeath.java`
 - [ ] Permisos en `plugin.yml`
 - [ ] README
